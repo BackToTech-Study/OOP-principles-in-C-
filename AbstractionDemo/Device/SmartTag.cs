@@ -1,6 +1,14 @@
-﻿namespace PolymorphismDemo.Device;
+﻿namespace AbstractionDemo.Device;
 
-public class SmartTag : CoreDevice, IMessageGenerator
+file struct DeviceInfo
+{
+    public string Id { get; set; }
+    public string Type { get; set; }
+    public string TagId { get; set; }
+    public string Value { get; set; }
+}
+
+public class SmartTag : CoreDevice, IMessageGenerator, IDataObject
 {
     public string value;
     private string _tagId;
@@ -52,5 +60,16 @@ public class SmartTag : CoreDevice, IMessageGenerator
     public string GetIdentificationMessage()
     {
         return $"Device {GetUniqueId()} of type {GetDeviceType()} with tag ID {GetId()}";
+    }
+
+    public object GetDataObject()
+    {
+        return new DeviceInfo
+        {
+            Id = GetUniqueId(),
+            TagId = GetId(),
+            Type = GetDeviceType(),
+            Value = value
+        };
     }
 }

@@ -1,4 +1,4 @@
-﻿namespace PolymorphismDemo.Device;
+﻿namespace AbstractionDemo.Device;
 
 public interface IMessageGenerator
 {
