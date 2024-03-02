@@ -3,6 +3,7 @@ using InheritanceDemo.Device;
 
 namespace InheritanceDemo.DeviceCollection;
 
+// polymorphism archived by using inheritance - all classes that inherit from CoreDevice can handled by the collection
 public class DeviceCollection<T> : IEnumerable<T> where T : CoreDevice
 {
     protected readonly List<CoreDevice> Devices = [];

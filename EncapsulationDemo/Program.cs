@@ -16,6 +16,7 @@ Console.WriteLine(result);
 var result2 = ((double)3).Add(7).Subtract(2);
 Console.WriteLine($"Result: {result2}");
 
+
 var engine = new NumericComputeEngine();
 engine.Add(10);
 engine.Subtract(5);

@@ -1,8 +1,8 @@
-﻿namespace InheritanceDemo.Device;
+﻿namespace PolymorphismDemo.Device;
 
 public abstract class CoreDevice : IEquatable<CoreDevice>
 {
-    private static double counter;
+    private static double _counter;
     private readonly string _id;
     
     public virtual string GetId()
@@ -19,8 +19,8 @@ public abstract class CoreDevice : IEquatable<CoreDevice>
     {
         var date = DateTime.Now.ToString("yyyyMMdd");
         var unique = Guid.NewGuid().ToString();
-        counter += 1;
-        return $"{date}-{unique}-{counter}";
+        _counter += 1;
+        return $"{date}-{unique}-{_counter}";
     }
     
     // virtual methods can be overwritten by derived classes

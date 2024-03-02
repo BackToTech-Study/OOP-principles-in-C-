@@ -6,4 +6,6 @@ public class SmartWatch : CoreDevice
     {
         return "SmartWatch";
     }
+    
+    // public and protected members from the base class are also available in the derived class
 }

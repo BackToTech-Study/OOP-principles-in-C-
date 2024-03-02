@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncapsulationDemoUser", "En
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritanceDemo", "InheritanceDemo\InheritanceDemo.csproj", "{37E6DFC0-0891-4C29-B9BB-45F813FA481C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolymorphismDemo", "PolymorphismDemo\PolymorphismDemo.csproj", "{324472E5-E58D-4A52-87AF-EEF23A4D911B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompositionDemo", "CompositionDemo\CompositionDemo.csproj", "{5315D487-9DDB-4599-B0FB-E82B4F624352}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +34,13 @@ Global
 		{37E6DFC0-0891-4C29-B9BB-45F813FA481C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37E6DFC0-0891-4C29-B9BB-45F813FA481C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37E6DFC0-0891-4C29-B9BB-45F813FA481C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{324472E5-E58D-4A52-87AF-EEF23A4D911B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{324472E5-E58D-4A52-87AF-EEF23A4D911B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{324472E5-E58D-4A52-87AF-EEF23A4D911B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{324472E5-E58D-4A52-87AF-EEF23A4D911B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5315D487-9DDB-4599-B0FB-E82B4F624352}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5315D487-9DDB-4599-B0FB-E82B4F624352}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5315D487-9DDB-4599-B0FB-E82B4F624352}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5315D487-9DDB-4599-B0FB-E82B4F624352}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
