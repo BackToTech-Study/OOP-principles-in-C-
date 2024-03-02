@@ -1,5 +1,4 @@
 ## Encapsulation
-
 - in C# encapsulation is achieved by using access modifiers
 - access modifiers are keywords that specify the type of access to the members of a class
 - access modifiers in C#
@@ -14,9 +13,10 @@
 - https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/classes-and-structs/access-modifiers
 
 ## Examples
-- [x]public
-- [x]private
-- []protected
-- [x]internal
-- []protected internal
-- []private protected
+- [x] public
+- [x] private
+- [x] protected (see InheritanceDemo)
+- [x] internal
+- [ ] protected internal
+- [ ] private protected
+- [x] static methods

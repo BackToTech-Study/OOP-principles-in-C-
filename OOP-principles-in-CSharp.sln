@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncapsulationDemo", "Encaps
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncapsulationDemoUser", "EncapsulationDemoUser\EncapsulationDemoUser.csproj", "{38B36D54-FD77-4D39-B4E2-86BF50C1D6AE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritanceDemo", "InheritanceDemo\InheritanceDemo.csproj", "{37E6DFC0-0891-4C29-B9BB-45F813FA481C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{38B36D54-FD77-4D39-B4E2-86BF50C1D6AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38B36D54-FD77-4D39-B4E2-86BF50C1D6AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38B36D54-FD77-4D39-B4E2-86BF50C1D6AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37E6DFC0-0891-4C29-B9BB-45F813FA481C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37E6DFC0-0891-4C29-B9BB-45F813FA481C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37E6DFC0-0891-4C29-B9BB-45F813FA481C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37E6DFC0-0891-4C29-B9BB-45F813FA481C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
